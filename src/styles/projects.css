@@ -1,0 +1,11 @@
+.projects{
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 20px;
+}
+
+#projImage{
+  width: 80%;
+  max-width: 540px;
+  border: 2px solid #000000;
+}

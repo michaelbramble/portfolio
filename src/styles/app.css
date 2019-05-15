@@ -1,8 +1,9 @@
 *{
   box-sizing: border-box;
+  font-family: 'Oxygen', sans-serif;
 }
 
 html{
-  background-color: #a6a6a6;
+  background-color: #D3AF8F;
   height: 100vh;
 }
