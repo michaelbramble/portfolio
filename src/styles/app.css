@@ -1,0 +1,8 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  background-color: #a6a6a6;
+  height: 100vh;
+}

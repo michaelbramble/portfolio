@@ -5,6 +5,7 @@ import Footer from './Footer';
 import Home from './Home';
 import Nav from './Nav';
 import Projects from './Projects';
+import './styles/app.css';
 
 function App() {
   return (
