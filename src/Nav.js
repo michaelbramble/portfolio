@@ -7,7 +7,7 @@ export default class Nav extends Component {
   render(){
     return (
       <nav role="navigation" className="nav">
-        <img src={Propic} alt="Michael Bramble" id="pic" />
+        <Link to="/" className="navLink" id="picLink"><img src={Propic} alt="Michael Bramble" id="pic" /></Link>
         <Link to="/" className="navLink" id="homeLink">Michael Bramble</Link>
         <Link to="/projects" className="navLink" id="projectsLink">Projects</Link>
       </nav>
