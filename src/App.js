@@ -9,14 +9,12 @@ function App() {
   return (
     <div className="page">
       <Nav />
-      <main>
-        <Switch>
-          <Route
-            exact path={'/'}
-            component={Home}
-          />
-        </Switch>
-      </main>
+      <Switch>
+        <Route
+          exact path={'/'}
+          component={Home}
+        />
+      </Switch>
       <Footer />
     </div>
   );

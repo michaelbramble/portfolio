@@ -33,12 +33,12 @@ export default class Home extends Component {
             </p>
           </div>        
         </section>
-        <hr id="divider" />
+        <hr className="divider" />
         <section className="projects">
           <h1>Projects</h1>
           <div className="projContainer1">
             <h3>Munch Stats</h3>
-            <img src={Munchstats} alt="Munchstats" id="projImage" />
+            <img src={Munchstats} alt="Munchstats" className="projImage" />
             <p>
               Munch Stats is a meal tracking app. What makes Munch Stats different
               is our approach to building meals within the app. Using the Edamam
@@ -73,7 +73,7 @@ export default class Home extends Component {
           </div>
           <div className="projContainer2">
             <h3>Petful</h3>
-            <img src={Petful} alt="Petful" id="projImage" />
+            <img src={Petful} alt="Petful" className="projImage" />
             <p>
               Petful is a mock site for an animal shelter. The adoption process
               works on a "FIFO" system. Potential adopters are also put into a
@@ -99,7 +99,7 @@ export default class Home extends Component {
           <hr />
           <div className="projContainer3">
             <h3>Quiz App</h3>
-            <img src={Quiz} alt="Quiz App" id="projImage" />
+            <img src={Quiz} alt="Quiz App" className="projImage" />
             <p>
               This is a simple seven-question quiz that renders each new question
               as well as a results screen using jQuery.
@@ -140,7 +140,7 @@ export default class Home extends Component {
           */
           }
         </section>
-        <hr id="divider" />
+        <hr className="divider" />
         <section className="contact">
           <div className="contactP">
             <h1>Contact Me</h1>
@@ -151,15 +151,15 @@ export default class Home extends Component {
           </div>
           <div className="contactLinks">
             <a href="https://github.com/michaelbramble">
-              <img src={GitHubLogo} alt="GitHub Logo" id="contactPic" />
+              <img src={GitHubLogo} alt="GitHub Logo" className="contactPic" />
             </a>
             <br />
             <a href="https://linkedin.com/in/mwbramble">
-              <img src={LinkedInLogo} alt="LinkedIn Logo" id="contactPic" />
+              <img src={LinkedInLogo} alt="LinkedIn Logo" className="contactPic" />
             </a>
             <br />
             <a href="mailto:mwbramble@gmail.com">
-              <img src={EmailIcon} alt="Email Icon" id="contactPic" />
+              <img src={EmailIcon} alt="Email Icon" className="contactPic" />
             </a>
           </div>
         </section>
