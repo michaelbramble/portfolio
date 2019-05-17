@@ -1,9 +1,8 @@
 import React from 'react';
 import {Route, Switch} from 'react-router-dom';
-import About from './About';
-// import Footer from './Footer';
+import Footer from './Footer';
 import Nav from './Nav';
-import Projects from './Projects';
+import Home from './Home';
 import './styles/app.css';
 
 function App() {
@@ -14,15 +13,11 @@ function App() {
         <Switch>
           <Route
             exact path={'/'}
-            component={About}
-          />
-          <Route
-            exact path={'/projects'}
-            component={Projects}
+            component={Home}
           />
         </Switch>
-        {/* <Footer /> */}
       </main>
+      <Footer />
     </div>
   );
 }

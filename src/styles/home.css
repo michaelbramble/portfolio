@@ -1,0 +1,50 @@
+main{
+  width: 80%;
+  margin-left: 10%;
+}
+
+.top{
+  display: flex;
+}
+
+.aboutMe{
+  margin-top: 5%;
+  margin-bottom: 20px;
+}
+
+.contact{
+  margin-bottom: 20px;
+}
+
+.contactLinks{
+  display: flex;
+  justify-content: left;
+  
+}
+
+#contactPic{
+  height: 50px;
+  margin-right: 20px;
+}
+
+.projects{
+  margin-bottom: 20px;
+}
+
+#projImage{
+  max-width: 540px;
+  border: 2px solid #000000;
+}
+
+hr{
+  margin-top: 20px;
+  border: 0.5px solid #000000;
+}
+
+#divider{
+  border: 1px solid #000000;
+}
+
+h1{
+  font-style: italic;
+}

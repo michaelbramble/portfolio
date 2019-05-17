@@ -8,8 +8,8 @@ export default class Nav extends Component {
     return (
       <nav role="navigation" className="nav">
         <Link to="/" className="navLink" id="picLink"><img src={Propic} alt="Michael Bramble" id="pic" /></Link>
-        <Link to="/" className="navLink" id="homeLink">Michael Bramble</Link>
-        <Link to="/projects" className="navLink" id="projectsLink">Projects</Link>
+        <a href="https://github.com/michaelbramble" className="navLink" id="githubLink"> GitHub</a>
+        <a href="https://linkedin.com/in/mwbramble" className="navLink" id="linkedinLink"> LinkedIn</a>
       </nav>
     )
   }
