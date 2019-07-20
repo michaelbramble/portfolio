@@ -1,13 +1,23 @@
 footer{
-  position: relative;
+  position: absolute;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;
-  text-align: center;
-  background-color: #380607;
+  height: 6rem;
+  padding-left: 15%;
+  background-color: #040147;
 }
 
 footer p{
-  padding-top: 10px;
+  margin: 0;
+  padding-top: 3rem;
   color: #F2E8DF;
+}
+
+.footerLink{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.footerLink:hover{
+  color: #0283BF;
 }

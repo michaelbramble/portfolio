@@ -3,23 +3,13 @@ main{
   margin-left: 15%;
 }
 
-.top{
-  display: flex;
-}
-
 .aboutMe{
-  margin-top: 5%;
-  margin-bottom: 20px;
-}
-
-.contact{
   margin-bottom: 20px;
 }
 
 .contactLinks{
   display: flex;
   justify-content: left;
-  
 }
 
 .contactPic{
@@ -32,7 +22,7 @@ main{
 }
 
 .projImage{
-  max-width: 540px;
+  max-height: 225px;
   border: 2px solid #000000;
 }
 

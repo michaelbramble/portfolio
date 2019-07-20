@@ -7,21 +7,22 @@ nav{
   justify-content: space-between;
   align-items: center;
   box-shadow: 1px 0 6px;
-  background-color: #380607;
+  background-color: #040147;
+  color: #FFFFFF;
 }
 
 .nav{
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .navLink{
   text-decoration: none;
-  color: #F2E8DF;
+  color: #FFFFFF;
 }
 
 .navLink:hover{
-  color: #D3AF8F;
+  color: #0283BF;
 }
 
 #pic{
