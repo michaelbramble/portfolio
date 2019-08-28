@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import GitHubLogo from "./images/github-logo.png";
 import LinkedInLogo from "./images/linkedin-logo.png";
 import EmailIcon from "./images/email-icon.jpg";
+import "./styles/contact.css";
 
 export default class Contact extends Component {
   render(){
@@ -10,8 +11,8 @@ export default class Contact extends Component {
         <div className="contactP">
           <h1>Contact Me</h1>
           <p>
-            I am looking for work! Check me out on GitHub and LinkedIn or send
-            me an Email:
+            I am looking for work! Check me out on <a href="https://github.com/michaelbramble">GitHub</a> and <a href="https://linkedin.com/in/mwbramble">LinkedIn</a> or send
+            me an <a href="mailto:mwbramble@gmail.com">Email</a>.
           </p>
         </div>
         <div className="contactLinks">

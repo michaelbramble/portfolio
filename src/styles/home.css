@@ -17,18 +17,11 @@ main{
   margin-right: 20px;
 }
 
-.projects{
-  margin-bottom: 20px;
-}
-
-.projImage{
-  max-height: 225px;
-  border: 2px solid #000000;
-}
-
 hr{
   margin-top: 20px;
   border: 0.5px solid #000000;
+  width: 70%;
+  margin-left: 15%;
 }
 
 .divider{
@@ -37,4 +30,5 @@ hr{
 
 h1{
   font-style: italic;
+  font-size: 24px;
 }
