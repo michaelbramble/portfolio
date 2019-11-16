@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 import QuizScreen from './images/quizapp.jpg';
 
 export default class Quiz extends Component {
@@ -24,6 +25,8 @@ export default class Quiz extends Component {
           Live App
           </a>
         </div>
+        <br />
+        <Link to="/projects" className="back">back to projects page</Link>
       </main>
     )
   }

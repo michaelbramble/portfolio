@@ -1,15 +1,17 @@
 import React, {Component} from 'react';
-import {NavLink} from 'react-router-dom';
+import {Link, NavLink} from 'react-router-dom';
 
-const bgColor = '#312F68';
+const bgActive = '#312F68';
 
 export default class Nav extends Component {
   render(){
     return (
       <nav role="navigation" className="nav">
-        <NavLink to="/about" className="navLink" activeStyle={{backgroundColor: {bgColor}}}>about</NavLink>
-        <NavLink to="/projects" className="navLink" activeStyle={{backgroundColor: {bgColor}}}>projects</NavLink>
-        <NavLink to="/contact" className="navLink" activeStyle={{backgroundColor: {bgColor}}}>contact</NavLink>
+        <Link to="/" className="navLink">home</Link>
+        <NavLink to="/about" className="navLink" activeStyle={{backgroundColor: {bgActive}}}>about</NavLink>
+        <NavLink to="/projects" className="navLink" activeStyle={{backgroundColor: {bgActive}}}>projects</NavLink>
+        <NavLink to="/contact" className="navLink" activeStyle={{backgroundColor: {bgActive}}}>contact</NavLink>
+        <p>&copy; Michael Bramble 2019</p>
       </nav>
     )
   }

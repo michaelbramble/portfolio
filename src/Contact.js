@@ -1,7 +1,4 @@
 import React, {Component} from 'react';
-// import GitHubLogo from "./images/github-logo.png";
-// import LinkedInLogo from "./images/linkedin-logo.png";
-// import EmailIcon from "./images/email-icon.jpg";
 
 export default class Contact extends Component {
   render(){
@@ -13,20 +10,8 @@ export default class Contact extends Component {
             I am looking for work! Check me out on <a href="https://github.com/michaelbramble">GitHub</a> and <a href="https://linkedin.com/in/mwbramble">LinkedIn</a> or send
             me an <a href="mailto:mwbramble@gmail.com">Email</a>.
           </p>
+          <p>If you wish, you can also take a look at my <a href="https://docs.google.com/document/d/e/2PACX-1vTic7OZ1QD1qP3PZPHwTngLC5zuvDYEw2kU3aJhsebJr1h5uMR5tbzFthSTpdv87_DTL7LrGFYKYvPr/pub">resume</a> (published with Google Docs).</p>
         </div>
-        {/* <div className="contactLinks">
-          <a href="https://github.com/michaelbramble">
-            <img src={GitHubLogo} alt="GitHub Logo" className="contactPic" />
-          </a>
-          <br />
-          <a href="https://linkedin.com/in/mwbramble">
-            <img src={LinkedInLogo} alt="LinkedIn Logo" className="contactPic" />
-          </a>
-          <br />
-          <a href="mailto:mwbramble@gmail.com">
-            <img src={EmailIcon} alt="Email Icon" className="contactPic" />
-          </a>
-        </div> */}
       </main>
     )
   }

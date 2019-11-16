@@ -1,5 +1,6 @@
 import React from 'react';
 import {Route, Switch} from 'react-router-dom';
+import Home from './Home';
 import Nav from './Nav';
 import About from './About';
 import Projects from './Projects';
@@ -16,6 +17,10 @@ function App() {
       <Nav />
       <div className="content-wrap">
         <Switch>
+          <Route
+            exact path={'/'}
+            component={Home}
+          />
           <Route
             exact path={'/about'}
             component={About}

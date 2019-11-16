@@ -70,6 +70,16 @@ body{
   color: #BAB9CC;
 }
 
+.nav p{
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  padding: 16px;
+  color: #BAB9CC;
+}
+
 .nav a.active{
   background-color: #312F68;
 }
@@ -89,15 +99,36 @@ body{
   margin-right: 20px;
 }
 
+.projList{
+  width: 100%;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.contactP a, .projList a, .projLinks a, .back{
+  color: #040147;
+}
+
+.contactP a:hover, .projList a:hover, .projLinks a:hover, .back:hover{
+  color: #5F5D89;
+}
+
+.projList li{
+  width: 500px;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: inline-block;
+}
+
 .projImage{
-  max-width: 33%;
+  max-width: 50%;
   border: 2px solid #000000;
   margin: 1px;
   box-shadow: 1px 0 6px #000000;
 }
 
 .projPrev{
-  max-width: 50%;
+  width: 100%;
   border: 2px solid #000000;
   margin: 1px;
   box-shadow: 1px 0 6px #000000;
@@ -116,6 +147,18 @@ body{
 
   .content-wrap{
     margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 580px){
+  .projList li{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 525px){
+  .nav p{
+    display: none;
   }
 }
 

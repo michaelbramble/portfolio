@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 import MunchstatsScreen from './images/munchstats.png';
 
 export default class Munchstats extends Component {
@@ -51,6 +52,8 @@ export default class Munchstats extends Component {
           {" | "}
           <a href="https://munchstats.now.sh">Live App</a>
         </div>
+        <br />
+        <Link to="/projects" className="back">back to projects page</Link>
       </main>
     )
   }

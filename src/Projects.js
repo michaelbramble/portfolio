@@ -11,7 +11,7 @@ export default class Projects extends Component {
         <h1>Featured Projects</h1>
         <ul className="projList">
           <li className="proj">
-            <h3>Munch Stats</h3>
+            <h2>Munch Stats</h2>
             <img src={Munchstats} className="projPrev" alt="Munch Stats" /><p>
               <Link to="/projects/munchstats">info</Link>
               {" / "}
@@ -27,7 +27,7 @@ export default class Projects extends Component {
             </p>
           </li>
           <li className="proj">
-            <h3>Petful</h3>
+            <h2>Petful</h2>
             <img src={Petful} className="projPrev" alt="Petful" />
             <p>
               <Link to="/projects/petful">info</Link>
@@ -42,7 +42,7 @@ export default class Projects extends Component {
             </p>
           </li>
           <li className="proj">
-            <h3>Quiz App</h3>
+            <h2>Quiz App</h2>
             <img src={QuizApp} className="projPrev" alt="Quiz App" />
             <p>
               <Link to="/projects/quizapp">info</Link>
