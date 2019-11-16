@@ -1,15 +1,14 @@
 import React from 'react';
 import {Route, Switch} from 'react-router-dom';
-import Footer from './Footer';
 import Nav from './Nav';
-import Home from './Home';
 import About from './About';
 import Projects from './Projects';
 import Munchstats from './Munchstats';
 import Petful from './Petful';
 import Quiz from './Quiz';
 import Contact from './Contact';
-import './styles/app.css';
+import NotFound from './NotFound';
+import './style.css';
 
 function App() {
   return (
@@ -17,10 +16,6 @@ function App() {
       <Nav />
       <div className="content-wrap">
         <Switch>
-          <Route
-            exact path={'/'}
-            component={Home}
-          />
           <Route
             exact path={'/about'}
             component={About}
@@ -45,9 +40,11 @@ function App() {
             exact path={'/contact'}
             component={Contact}
           />
+          <Route
+            component={NotFound}
+          />
         </Switch>
       </div>
-      <Footer />
     </div>
   );
 }

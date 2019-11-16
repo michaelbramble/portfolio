@@ -1,20 +1,15 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
-import Propic from './images/propic.jpg';
-import './styles/nav.css';
+import {NavLink} from 'react-router-dom';
+
+const bgColor = '#312F68';
 
 export default class Nav extends Component {
   render(){
     return (
       <nav role="navigation" className="nav">
-        <Link to="/" className="navLink" id="picLink"><img src={Propic} alt="Michael Bramble" id="pic" /></Link>
-        <section className="links">
-          <Link to="/about" className="navLink">about</Link>
-          {' / '}
-          <Link to="/projects" className="navLink">projects</Link>
-          {' / '}
-          <Link to="/contact" className="navLink">contact</Link>
-        </section>
+        <NavLink to="/about" className="navLink" activeStyle={{backgroundColor: {bgColor}}}>about</NavLink>
+        <NavLink to="/projects" className="navLink" activeStyle={{backgroundColor: {bgColor}}}>projects</NavLink>
+        <NavLink to="/contact" className="navLink" activeStyle={{backgroundColor: {bgColor}}}>contact</NavLink>
       </nav>
     )
   }

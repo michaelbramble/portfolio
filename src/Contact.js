@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
-import GitHubLogo from "./images/github-logo.png";
-import LinkedInLogo from "./images/linkedin-logo.png";
-import EmailIcon from "./images/email-icon.jpg";
-import "./styles/contact.css";
+// import GitHubLogo from "./images/github-logo.png";
+// import LinkedInLogo from "./images/linkedin-logo.png";
+// import EmailIcon from "./images/email-icon.jpg";
 
 export default class Contact extends Component {
   render(){
@@ -15,7 +14,7 @@ export default class Contact extends Component {
             me an <a href="mailto:mwbramble@gmail.com">Email</a>.
           </p>
         </div>
-        <div className="contactLinks">
+        {/* <div className="contactLinks">
           <a href="https://github.com/michaelbramble">
             <img src={GitHubLogo} alt="GitHub Logo" className="contactPic" />
           </a>
@@ -27,7 +26,7 @@ export default class Contact extends Component {
           <a href="mailto:mwbramble@gmail.com">
             <img src={EmailIcon} alt="Email Icon" className="contactPic" />
           </a>
-        </div>
+        </div> */}
       </main>
     )
   }

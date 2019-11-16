@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-import "./styles/about.css";
+import Propic from './images/propic.jpg';
 
 export default class About extends Component {
   render() {
     return (
       <div className="about">
         <h1>About Me</h1>
+        <img src={Propic} alt="Michael Bramble" id="pic" />
         <p>
           I am a web developer based in the Detroit Metro area who is a recent
           graduate of the Enginering Immersion program at Thinkful. Ever since I

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Projects from "./Projects";
-import Contact from "./Contact";
+import Projects from "../Projects";
+import Contact from "../Contact";
 import "./styles/home.css";
 
 export default class Home extends Component {
