@@ -13,6 +13,7 @@ export default class Quiz extends Component {
           This is a simple seven-question quiz that renders each new question
           as well as a results screen using jQuery.
         </p>
+        <p>Last updated: January 23, 2019</p>
         <h2>Tech Stack</h2>
         <ul className="techStack">
           <li>Client: HTML, CSS, jQuery.</li>

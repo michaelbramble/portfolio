@@ -16,6 +16,7 @@ export default class Petful extends Component {
           mainly meant as an exercise on data structures and algorithms, and
           was done in one day.
         </p>
+        <p>Last updated: April 12, 2019</p>
         <h2>Tech Stack</h2>
         <ul className="techStack">
           <li>Client: HTML, CSS, JavaScript, React, React Router.</li>

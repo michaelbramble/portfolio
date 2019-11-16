@@ -29,6 +29,7 @@ export default class Munchstats extends Component {
           ingredient's nutritional information to the meal's total. Once satisfied
           with your meal, you can hit the back button and your meal is saved!
         </p>
+        <p>Last updated: May 15, 2019</p>
         <h2>Tech Stack</h2>
         <ul className="techStack">
           <li>

@@ -12,6 +12,7 @@ export default class AprendeMas extends Component {
         <p>
           Practice learning a language with the spaced repetiton revison technique.
         </p>
+        <p>Last updated: May 28, 2019</p>
         <h2>Tech Stack</h2>
         <ul className="techStack">
           <li>
