@@ -6,6 +6,7 @@ import About from './About';
 import Projects from './Projects';
 import Munchstats from './Munchstats';
 import Petful from './Petful';
+import AprendeMas from './AprendeMas';
 import Quiz from './Quiz';
 import Contact from './Contact';
 import NotFound from './NotFound';
@@ -36,6 +37,10 @@ function App() {
           <Route
             exact path={'/projects/petful'}
             component={Petful}
+          />
+          <Route
+            exact path={'/projects/aprendemas'}
+            component={AprendeMas}
           />
           <Route
             exact path={'/projects/quizapp'}

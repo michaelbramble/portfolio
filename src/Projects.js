@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import Munchstats from './images/munchstats.png';
 import Petful from './images/petful.jpg';
+import AprendeMas from './images/aprendemas.png';
 import QuizApp from './images/quizapp.jpg';
 
 export default class Projects extends Component {
@@ -38,6 +39,25 @@ export default class Projects extends Component {
               {" / "}
               <a href="https://github.com/michaelbramble/petful-server-Michael-Jonathan">
                 server repo
+              </a>
+            </p>
+          </li>
+          <li className="proj">
+            <h2>Aprende Más</h2>
+            <img src={AprendeMas} className="projPrev" alt="Aprende Más" />
+            <p>
+              <Link to="/projects/aprendemas">info</Link>
+              {" / "}
+              <a href="https://github.com/thinkful-ei-armadillo/spaced-rep-michael-michael-client">
+                client repo
+              </a>
+              {" / "}
+              <a href="https://github.com/thinkful-ei-armadillo/spaced-rep-michael-michael-server">
+                server repo
+              </a>
+              {" / "}
+              <a href="https://aprendemas.mdb1710.now.sh/register">
+                live app
               </a>
             </p>
           </li>
