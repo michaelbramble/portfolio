@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import Munchstats from './images/munchstats.png';
+import Smw from './images/smw.jpg';
 import Petful from './images/petful.jpg';
 import AprendeMas from './images/aprendemas.png';
 import QuizApp from './images/quizapp.jpg';
@@ -14,7 +15,7 @@ export default class Projects extends Component {
           <li className="proj">
             <h2>Munch Stats</h2>
             <img src={Munchstats} className="projPrev" alt="Munch Stats" /><p>
-              <Link to="/projects/munchstats">info</Link>
+              <Link to="/projects/munch_stats">info</Link>
               {" / "}
               <a href="https://github.com/thinkful-ei-armadillo/munchstats-client">
                 client repo
@@ -25,6 +26,18 @@ export default class Projects extends Component {
               </a>
               {" / "}
               <a href="https://munchstats.now.sh">live app</a>
+            </p>
+          </li>
+          <li className="proj">
+            <h2>SMW Speedrunning Info</h2>
+            <img src={Smw} className="projPrev" alt="SMW Speedrunning" /><p>
+              <Link to="/projects/smw_speedrunning_info">info</Link>
+              {" / "}
+              <a href="https://github.com/michaelbramble/smw-speedrunning-site">
+                client repo
+              </a>
+              {/* {" / "}
+              <a href="">live app</a> */}
             </p>
           </li>
           <li className="proj">
@@ -46,7 +59,7 @@ export default class Projects extends Component {
             <h2>Aprende Más</h2>
             <img src={AprendeMas} className="projPrev" alt="Aprende Más" />
             <p>
-              <Link to="/projects/aprendemas">info</Link>
+              <Link to="/projects/aprende_mas">info</Link>
               {" / "}
               <a href="https://github.com/thinkful-ei-armadillo/spaced-rep-michael-michael-client">
                 client repo
@@ -65,7 +78,7 @@ export default class Projects extends Component {
             <h2>Quiz App</h2>
             <img src={QuizApp} className="projPrev" alt="Quiz App" />
             <p>
-              <Link to="/projects/quizapp">info</Link>
+              <Link to="/projects/quiz_app">info</Link>
               {" / "}
               <a href="https://github.com/thinkful-ei-armadillo/irem-michael">
                 client repo

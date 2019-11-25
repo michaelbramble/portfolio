@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
 import QuizScreen from './images/quizapp.jpg';
 
 export default class Quiz extends Component {
@@ -20,14 +19,14 @@ export default class Quiz extends Component {
         </ul>
         <div className="projLinks">
           {"Links: "}
-          <a href="https://github.com/thinkful-ei-armadillo/irem-michael">Client Repo</a>
-          {" | "}
+          <a href="https://github.com/thinkful-ei-armadillo/irem-michael">
+            Client Repo
+          </a>
+          {" / "}
           <a href="https://thinkful-ei-armadillo.github.io/irem-michael/">
-          Live App
+            Live App
           </a>
         </div>
-        <br />
-        <Link to="/projects" className="back">back to projects page</Link>
       </main>
     )
   }

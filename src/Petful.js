@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
 import PetfulScreen from './images/petful.jpg';
 
 export default class Petful extends Component {
@@ -27,13 +26,11 @@ export default class Petful extends Component {
           <a href="https://github.com/michaelbramble/petful-client-Michael-Jonathan">
             Client Repo
           </a>
-          {" | "}
+          {" / "}
           <a href="https://github.com/michaelbramble/petful-server-Michael-Jonathan">
             Server Repo
           </a>
         </div>
-        <br />
-        <Link to="/projects" className="back">back to projects page</Link>
       </main>
     )
   }

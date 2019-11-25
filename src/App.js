@@ -5,6 +5,7 @@ import Nav from './Nav';
 import About from './About';
 import Projects from './Projects';
 import Munchstats from './Munchstats';
+import SmwSite from './SmwSite';
 import Petful from './Petful';
 import AprendeMas from './AprendeMas';
 import Quiz from './Quiz';
@@ -31,19 +32,23 @@ function App() {
             component={Projects}
           />
           <Route
-            exact path={'/projects/munchstats'}
+            exact path={'/projects/munch_stats'}
             component={Munchstats}
+          />
+          <Route
+            exact path={'/projects/smw_speedrunning_info'}
+            component={SmwSite}
           />
           <Route
             exact path={'/projects/petful'}
             component={Petful}
           />
           <Route
-            exact path={'/projects/aprendemas'}
+            exact path={'/projects/aprende_mas'}
             component={AprendeMas}
           />
           <Route
-            exact path={'/projects/quizapp'}
+            exact path={'/projects/quiz_app'}
             component={Quiz}
           />
           <Route

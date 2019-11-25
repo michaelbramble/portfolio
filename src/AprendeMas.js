@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
 import AprendeMasScreen from './images/aprendemas.png';
 
 export default class AprendeMas extends Component {
@@ -27,15 +26,13 @@ export default class AprendeMas extends Component {
           <a href="https://github.com/michaelbramble/spaced-rep-michael-michael-client">
             Client Repo
           </a>
-          {" | "}
+          {" / "}
           <a href="https://github.com/michaelbramble/spaced-rep-michael-michael-server">
             Server Repo
           </a>
-          {" | "}
+          {" / "}
           <a href="https://aprendemas.mdb1710.now.sh/register">Live App</a>
         </div>
-        <br />
-        <Link to="/projects" className="back">back to projects page</Link>
       </main>
     )
   }
