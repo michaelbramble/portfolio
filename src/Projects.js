@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import Munchstats from './images/munchstats.png';
 import Smw from './images/smw.jpg';
+import Avg from './images/avgruncalc.png';
 import Petful from './images/petful.jpg';
 import AprendeMas from './images/aprendemas.png';
 import QuizApp from './images/quizapp.jpg';
@@ -14,7 +15,10 @@ export default class Projects extends Component {
         <ul className="projList">
           <li className="proj">
             <h2>Munch Stats</h2>
-            <img src={Munchstats} className="projPrev" alt="Munch Stats" /><p>
+            <Link to="/projects/munch_stats">
+              <img src={Munchstats} className="projPrev" alt="Munch Stats" />
+            </Link>
+            <p>
               <Link to="/projects/munch_stats">info</Link>
               {" / "}
               <a href="https://github.com/thinkful-ei-armadillo/munchstats-client">
@@ -30,7 +34,10 @@ export default class Projects extends Component {
           </li>
           <li className="proj">
             <h2>SMW Speedrunning Info</h2>
-            <img src={Smw} className="projPrev" alt="SMW Speedrunning" /><p>
+            <Link to="/projects/smw_speedrunning_info">
+              <img src={Smw} className="projPrev" alt="SMW Speedrunning" />
+            </Link>
+            <p>
               <Link to="/projects/smw_speedrunning_info">info</Link>
               {" / "}
               <a href="https://github.com/michaelbramble/smw-speedrunning-site">
@@ -41,8 +48,27 @@ export default class Projects extends Component {
             </p>
           </li>
           <li className="proj">
+            <h2>Average Run Calculator</h2>
+            <Link to="/projects/average_run_calculator">
+              <img src={Avg} className="projPrev" alt="Average Run Calculator" />
+            </Link>
+            <p>
+              <Link to="/projects/average_run_calculator">info</Link>
+              {" / "}
+              <a href="https://github.com/michaelbramble/average-run-calc">
+                client repo
+              </a>
+              {" / "}
+              <a href="https://michaelbramble.github.io/average-run-calc/">
+                live app
+              </a>
+            </p>
+          </li>
+          <li className="proj">
             <h2>Petful</h2>
-            <img src={Petful} className="projPrev" alt="Petful" />
+            <Link to="/projects/petful">
+              <img src={Petful} className="projPrev" alt="Petful" />
+            </Link>
             <p>
               <Link to="/projects/petful">info</Link>
               {" / "}
@@ -57,7 +83,9 @@ export default class Projects extends Component {
           </li>
           <li className="proj">
             <h2>Aprende Más</h2>
-            <img src={AprendeMas} className="projPrev" alt="Aprende Más" />
+            <Link to="/projects/aprende_mas">
+              <img src={AprendeMas} className="projPrev" alt="Aprende Más" />
+            </Link>
             <p>
               <Link to="/projects/aprende_mas">info</Link>
               {" / "}
@@ -76,7 +104,9 @@ export default class Projects extends Component {
           </li>
           <li className="proj">
             <h2>Quiz App</h2>
-            <img src={QuizApp} className="projPrev" alt="Quiz App" />
+            <Link to="/projects/quiz_app">
+              <img src={QuizApp} className="projPrev" alt="Quiz App" />
+            </Link>
             <p>
               <Link to="/projects/quiz_app">info</Link>
               {" / "}
@@ -94,17 +124,3 @@ export default class Projects extends Component {
     )
   }
 }
-
-// Old HTML
-
-// <div className="screenshots">
-//   <Link to="/projects/munchstats">
-//     <img src={Munchstats} className="projImage" alt="Munch Stats" />
-//   </Link>
-//   <Link to="/projects/petful">
-//     <img src={Petful} className="projImage" alt="Petful" />
-//   </Link>
-//   <Link to="/projects/quizapp">
-//     <img src={QuizApp} className="projImage" alt="Quiz App" />
-//   </Link>
-// </div>

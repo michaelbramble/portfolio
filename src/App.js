@@ -6,6 +6,7 @@ import About from './About';
 import Projects from './Projects';
 import Munchstats from './Munchstats';
 import SmwSite from './SmwSite';
+import AvgRunCalc from './AvgRunCalc';
 import Petful from './Petful';
 import AprendeMas from './AprendeMas';
 import Quiz from './Quiz';
@@ -38,6 +39,10 @@ function App() {
           <Route
             exact path={'/projects/smw_speedrunning_info'}
             component={SmwSite}
+          />
+          <Route
+            exact path={'/projects/average_run_calculator'}
+            component={AvgRunCalc}
           />
           <Route
             exact path={'/projects/petful'}
