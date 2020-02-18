@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Link} from 'react-router-dom';
 import Propic from './images/propic.jpg';
 
 export default class Home extends Component {
@@ -10,8 +11,9 @@ export default class Home extends Component {
         <p>Welcome to my portfolio site!</p>
         <p>
           This, along with most of my other projects, was built with React. On
-          this site you can check out some of these projects, learn more about
-          me, or figure out how to get in contact with me.
+          this site you can check out some of these <Link to='/projects'>projects
+          </Link>, learn more about me, or figure out how to get in <Link to='/contact'>
+          contact</Link> with me.
         </p>
         <p>
           I am a web developer based in the Detroit Metro area who is a recent
