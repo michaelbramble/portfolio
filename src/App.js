@@ -2,7 +2,7 @@ import React from 'react';
 import {Route, Switch} from 'react-router-dom';
 import Home from './Home';
 import Nav from './Nav';
-import About from './About';
+// import About from './About';
 import Projects from './Projects';
 import Munchstats from './Munchstats';
 import SmwSite from './SmwSite';
@@ -24,10 +24,10 @@ function App() {
             exact path={'/'}
             component={Home}
           />
-          <Route
+          {/* <Route
             exact path={'/about'}
             component={About}
-          />
+          /> */}
           <Route
             exact path={'/projects'}
             component={Projects}

@@ -105,6 +105,10 @@ body{
   list-style-type: none;
 }
 
+.projContainer{
+  margin-bottom: 20px;
+}
+
 .contactP a, .projList a, .projLinks a, .back{
   color: #040147;
 }
