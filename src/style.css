@@ -170,19 +170,21 @@ body{
   }
 }
 
-@media screen and (max-width: 525px){
+/* Use this query if there are 4 items in the nav list */
+/* 
+  @media screen and (max-width: 525px){
+    .nav p{
+      display: none;
+    }
+  }
+*/
+
+@media screen and (max-width: 470px){
+  .nav{
+    display: flex;
+    justify-content: space-evenly;
+  }
   .nav p{
     display: none;
   }
 }
-
-/* @media screen and (max-width: 400px){
-  .nav a{
-    text-align: center;
-    float: none;
-  }
-
-  #pic{
-    display: none;
-  }
-} */
