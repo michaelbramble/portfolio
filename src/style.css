@@ -20,6 +20,7 @@ body{
 
 .content-wrap{
   margin-left: 325px;
+  margin-bottom: 20px;
   padding: 1px 16px;
   height: 100%;
 }
@@ -45,15 +46,23 @@ body{
   100%{background-position:0% 50%}
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1280px){
+  .codeContainer{
+    display: none;
+  }
+
+  .projContainer{
+    width: 100%;
+  }
+
   .projImage{
-    max-width: 75%;
+    max-width: 50%;
   }
 }
 
-@media screen and (max-width: 580px){
-  .projList li{
-    width: 100%;
+@media screen and (max-width: 800px){
+  .projImage{
+    max-width: 75%;
   }
 }
 
@@ -71,6 +80,12 @@ body{
 
   .content-wrap{
     margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 580px){
+  .projList li{
+    width: 100%;
   }
 }
 

@@ -5,3 +5,11 @@
 .contactP a:hover{
   color: #5F5D89;
 }
+
+#pic2{
+  height: 130px;
+  width: 130px;
+  border-radius: 20%;
+  margin-right: 16px;
+  float: left;
+}

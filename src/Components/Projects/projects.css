@@ -1,3 +1,7 @@
+.projPageWrapper{
+  display: flex;
+}
+
 .projList{
   width: 100%;
   padding-left: 0;
@@ -18,14 +22,22 @@
   box-shadow: 1px 0 6px #000000;
 }
 
+.projPrev:hover{
+  position: relative;
+  top: -5px;
+  left: -5px;
+  box-shadow: 3px 0 18px #000000;
+}
+
 .projImage{
-  max-width: 50%;
+  max-width: 100%;
   border: 2px solid #000000;
   margin: 1px;
   box-shadow: 1px 0 6px #000000;
 }
 
 .projContainer{
+  width: 50%;
   margin-bottom: 20px;
 }
 
@@ -35,4 +47,45 @@
 
 .projList a:hover, .projLinks a:hover{
   color: #5F5D89;
+}
+
+.codeContainer{
+  width: 50%;
+  margin-top: 20px;
+  margin-left: 22px;
+  background-color: #000000;
+  padding: 10px 0;
+  color: #000000;
+}
+
+.codeContainer p{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.typed{
+  color: #00FF00;
+}
+
+#ind0{
+  text-indent: 1em;
+}
+
+#ind1{
+  text-indent: 2em;
+}
+
+#ind2{
+  text-indent: 3em;
+}
+
+#ind3{
+  text-indent: 4em;
+}
+
+#ind4{
+  text-indent: 5em;
 }
