@@ -36,15 +36,3 @@
 .projList a:hover, .projLinks a:hover{
   color: #5F5D89;
 }
-
-@media screen and (max-width: 800px){
-  .projImage{
-    max-width: 75%;
-  }
-}
-
-@media screen and (max-width: 580px){
-  .projList li{
-    width: 100%;
-  }
-}

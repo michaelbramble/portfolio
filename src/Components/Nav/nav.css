@@ -37,38 +37,3 @@
 .nav a:hover:not(.active){
   background-position: right bottom;
 }
-
-@media screen and (max-width: 700px){
-  .nav{
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-
-  .nav a{
-    float: left;
-  }
-
-  .content-wrap{
-    margin-left: 0;
-  }
-}
-
-/* Use this query if there are 4 items in the nav list */
-/* 
-  @media screen and (max-width: 525px){
-    .nav p{
-      display: none;
-    }
-  }
-*/
-
-@media screen and (max-width: 470px){
-  .nav{
-    display: flex;
-    justify-content: space-evenly;
-  }
-  .nav p{
-    display: none;
-  }
-}
