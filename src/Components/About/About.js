@@ -1,20 +1,13 @@
 import React, { Component } from "react";
-import {Link} from 'react-router-dom';
 import Propic from './images/propic.jpg';
+import './about.css';
 
-export default class Home extends Component {
+export default class About extends Component {
   render() {
     return (
-      <main className="main">
-        <h1>Home</h1>
+      <div className="about">
+        <h1>About Me</h1>
         <img src={Propic} alt="Michael Bramble" id="pic" />
-        <p>Welcome to my portfolio site!</p>
-        <p>
-          This, along with most of my other projects, was built with React. On
-          this site you can check out some of these <Link to='/projects'>projects
-          </Link>, learn more about me, or figure out how to get in <Link to='/contact'>
-          contact</Link> with me.
-        </p>
         <p>
           I am a web developer based in the Detroit Metro area who is a recent
           graduate of the Enginering Immersion program at Thinkful. Ever since I
@@ -32,12 +25,7 @@ export default class Home extends Component {
           of learning how to play piano and write small, non web-based programs
           to expand my knowledge of other languages.
         </p>
-        <div className="projLinks">
-          <a href="https://github.com/michaelbramble/portfolio">
-            GitHub Repo for This Site
-          </a>
-        </div>
-      </main>
+      </div>
     );
   }
 }

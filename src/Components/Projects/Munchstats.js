@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import MunchstatsScreen from './images/munchstats.png';
+import MunchstatsScreen from '../../images/munchstats.png';
 
 export default class Munchstats extends Component {
   render(){

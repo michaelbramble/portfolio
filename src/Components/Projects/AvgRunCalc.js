@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import AvgRunCalcScreen from "./images/avgruncalc.png";
+import AvgRunCalcScreen from "../../images/avgruncalc.png";
 
 export default class AvgRunCalc extends Component {
   render(){

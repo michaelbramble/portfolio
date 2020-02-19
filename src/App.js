@@ -1,17 +1,17 @@
 import React from 'react';
 import {Route, Switch} from 'react-router-dom';
-import Home from './Home';
-import Nav from './Nav';
+import Home from './Components/Home/Home';
+import Nav from './Components/Nav/Nav';
 // import About from './About';
-import Projects from './Projects';
-import Munchstats from './Munchstats';
-import SmwSite from './SmwSite';
-import AvgRunCalc from './AvgRunCalc';
-import Petful from './Petful';
-import AprendeMas from './AprendeMas';
-import Quiz from './Quiz';
-import Contact from './Contact';
-import NotFound from './NotFound';
+import Projects from './Components/Projects/Projects';
+import Munchstats from './Components/Projects/Munchstats';
+import SmwSite from './Components/Projects/SmwSite';
+import AvgRunCalc from './Components/Projects/AvgRunCalc';
+import Petful from './Components/Projects/Petful';
+import AprendeMas from './Components/Projects/AprendeMas';
+import Quiz from './Components/Projects/Quiz';
+import Contact from './Components/Contact/Contact';
+import NotFound from './Components/NotFound/NotFound';
 import './style.css';
 
 function App() {

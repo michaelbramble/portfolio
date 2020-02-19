@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import Munchstats from './images/munchstats.png';
-import Smw from './images/smw.jpg';
-import Avg from './images/avgruncalc.png';
-import Petful from './images/petful.jpg';
-import AprendeMas from './images/aprendemas.png';
-import QuizApp from './images/quizapp.jpg';
+import Munchstats from '../../images/munchstats.png';
+import Smw from '../../images/smw.jpg';
+import Avg from '../../images/avgruncalc.png';
+import Petful from '../../images/petful.jpg';
+import AprendeMas from '../../images/aprendemas.png';
+import QuizApp from '../../images/quizapp.jpg';
+import './projects.css';
 
 export default class Projects extends Component {
   render(){

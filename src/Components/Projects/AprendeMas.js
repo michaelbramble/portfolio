@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import AprendeMasScreen from './images/aprendemas.png';
+import AprendeMasScreen from '../../images/aprendemas.png';
 
 export default class AprendeMas extends Component {
   render(){

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import SmwScreen from "./images/smw.jpg";
+import SmwScreen from "../../images/smw.jpg";
 
 export default class SmwSite extends Component {
   render() {

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import QuizScreen from './images/quizapp.jpg';
+import QuizScreen from '../../images/quizapp.jpg';
 
 export default class Quiz extends Component {
   render(){

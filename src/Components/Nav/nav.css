@@ -1,0 +1,74 @@
+.nav{
+  margin: 0;
+  padding: 0;
+  width: 315px;
+  background-image: linear-gradient(180deg, #040147, #020024);
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  text-align: right;
+}
+
+.nav a{
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+  color: #BAB9CC;
+  background: linear-gradient(to right, #00000000 50%, #5F5D89 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all ease 0.25s;
+}
+
+.nav p{
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  padding: 16px;
+  color: #BAB9CC;
+}
+
+.nav a.active{
+  background-color: #312F68;
+}
+
+.nav a:hover:not(.active){
+  background-position: right bottom;
+}
+
+@media screen and (max-width: 700px){
+  .nav{
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .nav a{
+    float: left;
+  }
+
+  .content-wrap{
+    margin-left: 0;
+  }
+}
+
+/* Use this query if there are 4 items in the nav list */
+/* 
+  @media screen and (max-width: 525px){
+    .nav p{
+      display: none;
+    }
+  }
+*/
+
+@media screen and (max-width: 470px){
+  .nav{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .nav p{
+    display: none;
+  }
+}

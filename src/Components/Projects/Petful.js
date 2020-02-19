@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import PetfulScreen from './images/petful.jpg';
+import PetfulScreen from '../../images/petful.jpg';
 
 export default class Petful extends Component {
   render(){
