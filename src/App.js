@@ -7,6 +7,7 @@ import Projects from './Components/Projects/Projects';
 import Munchstats from './Components/Projects/Munchstats';
 import SmwSite from './Components/Projects/SmwSite';
 import AvgRunCalc from './Components/Projects/AvgRunCalc';
+import PassGen from './Components/Projects/PassGen';
 import Petful from './Components/Projects/Petful';
 import AprendeMas from './Components/Projects/AprendeMas';
 import Quiz from './Components/Projects/Quiz';
@@ -43,6 +44,10 @@ function App() {
           <Route
             exact path={'/projects/average_run_calculator'}
             component={AvgRunCalc}
+          />
+          <Route
+            exact path={'/projects/password_generator'}
+            component={PassGen}
           />
           <Route
             exact path={'/projects/petful'}

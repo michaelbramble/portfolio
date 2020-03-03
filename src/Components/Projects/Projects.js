@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import Munchstats from '../../images/munchstats.png';
 import Smw from '../../images/smw.jpg';
 import Avg from '../../images/avgruncalc.png';
+import Pass from '../../images/passgen.png';
 import Petful from '../../images/petful.jpg';
 import AprendeMas from '../../images/aprendemas.png';
 import QuizApp from '../../images/quizapp.jpg';
@@ -61,6 +62,23 @@ export default class Projects extends Component {
               </a>
               {" / "}
               <a href="https://michaelbramble.github.io/average-run-calc/">
+                live app
+              </a>
+            </p>
+          </li>
+          <li className="proj">
+            <h2>Password Generator</h2>
+            <Link to="/projects/password_generator">
+              <img src={Pass} className="projPrev" alt="Password Generator" />
+            </Link>
+            <p>
+              <Link to="/projects/password_generator">info</Link>
+              {" / "}
+              <a href="https://github.com/michaelbramble/password-generator">
+                client repo
+              </a>
+              {" / "}
+              <a href="https://michaelbramble.github.io/password-generator/">
                 live app
               </a>
             </p>
