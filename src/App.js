@@ -2,7 +2,6 @@ import React from 'react';
 import {Route, Switch} from 'react-router-dom';
 import Home from './Components/Home/Home';
 import Nav from './Components/Nav/Nav';
-// import About from './About';
 import Projects from './Components/Projects/Projects';
 import Munchstats from './Components/Projects/Munchstats';
 import SmwSite from './Components/Projects/SmwSite';
@@ -25,10 +24,10 @@ function App() {
             exact path={'/'}
             component={Home}
           />
-          {/* <Route
-            exact path={'/about'}
-            component={About}
-          /> */}
+          <Route
+            exact path={'/contact'}
+            component={Contact}
+          />
           <Route
             exact path={'/projects'}
             component={Projects}
@@ -60,10 +59,6 @@ function App() {
           <Route
             exact path={'/projects/quiz_app'}
             component={Quiz}
-          />
-          <Route
-            exact path={'/contact'}
-            component={Contact}
           />
           <Route
             component={NotFound}

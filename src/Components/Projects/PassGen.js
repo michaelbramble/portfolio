@@ -39,11 +39,11 @@ export default class PassGen extends Component {
         </ul>
         <div className="projLinks">
           {"Links: "}
-          <a href="https://github.com/michaelbramble/password-generator">
+          <a href="https://github.com/mwbramble/password-generator">
             Client Repo
           </a>
           {" / "}
-          <a href="https://michaelbramble.github.io/password-generator/">
+          <a href="https://mwbramble.github.io/password-generator/">
             Live App
           </a>
         </div>

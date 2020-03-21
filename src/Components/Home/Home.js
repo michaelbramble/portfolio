@@ -34,7 +34,7 @@ export default class Home extends Component {
           to expand my knowledge of other languages.
         </p>
         <div className="projLinks">
-          <a href="https://github.com/michaelbramble/portfolio">
+          <a href="https://github.com/mwbramble/portfolio">
             GitHub Repo for This Site
           </a>
         </div>

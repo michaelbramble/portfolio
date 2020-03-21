@@ -42,7 +42,7 @@ export default class Projects extends Component {
             <p>
               <Link to="/projects/smw_speedrunning_info">info</Link>
               {" / "}
-              <a href="https://github.com/michaelbramble/smw-speedrunning-site">
+              <a href="https://github.com/mwbramble/smw-speedrunning-site">
                 client repo
               </a>
               {/* {" / "}
@@ -57,11 +57,11 @@ export default class Projects extends Component {
             <p>
               <Link to="/projects/average_run_calculator">info</Link>
               {" / "}
-              <a href="https://github.com/michaelbramble/average-run-calc">
+              <a href="https://github.com/mwbramble/average-run-calc">
                 client repo
               </a>
               {" / "}
-              <a href="https://michaelbramble.github.io/average-run-calc/">
+              <a href="https://mwbramble.github.io/average-run-calc/">
                 live app
               </a>
             </p>
@@ -74,11 +74,11 @@ export default class Projects extends Component {
             <p>
               <Link to="/projects/password_generator">info</Link>
               {" / "}
-              <a href="https://github.com/michaelbramble/password-generator">
+              <a href="https://github.com/mwbramble/password-generator">
                 client repo
               </a>
               {" / "}
-              <a href="https://michaelbramble.github.io/password-generator/">
+              <a href="https://mwbramble.github.io/password-generator/">
                 live app
               </a>
             </p>
@@ -91,11 +91,11 @@ export default class Projects extends Component {
             <p>
               <Link to="/projects/petful">info</Link>
               {" / "}
-              <a href="https://github.com/michaelbramble/petful-client-Michael-Jonathan">
+              <a href="https://github.com/mwbramble/petful-client-Michael-Jonathan">
                 client repo
               </a>
               {" / "}
-              <a href="https://github.com/michaelbramble/petful-server-Michael-Jonathan">
+              <a href="https://github.com/mwbramble/petful-server-Michael-Jonathan">
                 server repo
               </a>
             </p>

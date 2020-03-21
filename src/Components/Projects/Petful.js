@@ -42,11 +42,11 @@ export default class Petful extends Component {
           </ul>
           <div className="projLinks">
             {"Links: "}
-            <a href="https://github.com/michaelbramble/petful-client-Michael-Jonathan">
+            <a href="https://github.com/mwbramble/petful-client-Michael-Jonathan">
               Client Repo
             </a>
             {" / "}
-            <a href="https://github.com/michaelbramble/petful-server-Michael-Jonathan">
+            <a href="https://github.com/mwbramble/petful-server-Michael-Jonathan">
               Server Repo
             </a>
           </div>

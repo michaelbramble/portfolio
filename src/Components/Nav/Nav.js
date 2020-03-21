@@ -9,7 +9,6 @@ export default class Nav extends Component {
     return (
       <nav role="navigation" className="nav">
         <Link to="/" className="navLink">home</Link>
-        {/* <NavLink to="/about" className="navLink" activeStyle={{backgroundColor: {bgActive}}}>about</NavLink> */}
         <NavLink to="/projects" className="navLink" activeStyle={{backgroundColor: {bgActive}}}>projects</NavLink>
         <NavLink to="/contact" className="navLink" activeStyle={{backgroundColor: {bgActive}}}>contact</NavLink>
         <p>&copy; Michael Bramble 2020</p>

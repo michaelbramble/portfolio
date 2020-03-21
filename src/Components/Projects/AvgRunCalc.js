@@ -38,11 +38,11 @@ export default class AvgRunCalc extends Component {
           </ul>
           <div className="projLinks">
             {"Links: "}
-            <a href="https://github.com/michaelbramble/average-run-calc">
+            <a href="https://github.com/mwbramble/average-run-calc">
               Client Repo
             </a>
             {" / "}
-            <a href="https://michaelbramble.github.io/average-run-calc/">
+            <a href="https://mwbramble.github.io/average-run-calc/">
               Live App
             </a>
           </div>

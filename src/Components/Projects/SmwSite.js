@@ -40,7 +40,7 @@ export default class SmwSite extends Component {
           </ul>
           <div className="projLinks">
             {"Links: "}
-            <a href="https://github.com/michaelbramble/smw-speedrunning-site">
+            <a href="https://github.com/mwbramble/smw-speedrunning-site">
               Client Repo
             </a>
             {/* {" / "}

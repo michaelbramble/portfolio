@@ -42,11 +42,11 @@ export default class AprendeMas extends Component {
           </ul>
           <div className="projLinks">
             {"Links: "}
-            <a href="https://github.com/michaelbramble/spaced-rep-michael-michael-client">
+            <a href="https://github.com/mwbramble/spaced-rep-michael-michael-client">
               Client Repo
             </a>
             {" / "}
-            <a href="https://github.com/michaelbramble/spaced-rep-michael-michael-server">
+            <a href="https://github.com/mwbramble/spaced-rep-michael-michael-server">
               Server Repo
             </a>
             {" / "}

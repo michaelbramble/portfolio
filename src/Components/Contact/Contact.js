@@ -4,6 +4,7 @@ import "./contact.css";
 
 export default class Contact extends Component {
   render() {
+    const resumeURL = 'https://docs.google.com/document/d/1z6mNQ0Ild4irE0oL7mMRkzhn9vAGdcqlsH3hQZgZZPw/edit?usp=sharing';
     return (
       <main className="contact">
         <div className="contactP">
@@ -24,13 +25,13 @@ export default class Contact extends Component {
             React, jQuery, Redux, &amp; Enzyme.
           </p>
           <p>
-            Check out my code on <a href="https://github.com/michaelbramble">GitHub</a>,
+            Check out my code on <a href="https://github.com/mwbramble">GitHub</a>,
             view my <a href="https://linkedin.com/in/mwbramble">LinkedIn</a> profile, or
             send me an <a href="mailto:mwbramble@gmail.com">Email</a>.
           </p>
           <p>
-            If you wish, you can also take a look at my <a href="/Resume.pdf"> resume
-            </a> on Google Docs.
+            If you wish, you can also take a look at my <a href={resumeURL} target="_blank"> 
+            resume</a> on Google Docs.
           </p>
         </div>
       </main>
