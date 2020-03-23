@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {Link} from 'react-router-dom';
-import Propic from '../../images/propic.jpg';
+import Propic2 from '../../images/propic2.jpg';
 import './home.css';
 
 export default class Home extends Component {
@@ -8,7 +8,7 @@ export default class Home extends Component {
     return (
       <main className="main">
         <h1>Home</h1>
-        <img src={Propic} alt="Michael Bramble" id="pic" />
+        <img src={Propic2} alt="Michael Bramble" id="pic" />
         <p>Welcome to my portfolio site!</p>
         <p>
           This, along with most of my other projects, was built with React. On

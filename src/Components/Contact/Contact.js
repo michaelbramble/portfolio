@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Propic2 from "../../images/propic2.jpg";
+import Propic from "../../images/propic.jpg";
 import "./contact.css";
 
 export default class Contact extends Component {
@@ -9,7 +9,7 @@ export default class Contact extends Component {
       <main className="contact">
         <div className="contactP">
           <h1>Contact Me</h1>
-          <img src={Propic2} alt="Michael Bramble" id="pic2" />
+          <img src={Propic} alt="Michael Bramble" id="pic2" />
           <p>
             I am looking for work! Ideally, I would like to stay in the Detroit
             area.

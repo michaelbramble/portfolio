@@ -1,23 +1,10 @@
 import React, { Component } from "react";
 import AvgRunCalcScreen from "../../images/avgruncalc.png";
+import {drawCode} from '../../resources/utils.js';
 
 export default class AvgRunCalc extends Component {
   componentDidMount(){
-    let c = document.getElementById('code').childNodes;
-    
-    c.forEach(this.delayLoop(this.addClass, 50));
-  }
-
-  delayLoop = (fn, delay) => {
-    return (x, i) => {
-      setTimeout(() => {
-        fn(x);
-      }, i * delay);
-    };
-  };
-
-  addClass(e){
-    e.classList.add('typed');
+    drawCode();
   }
 
   render(){
