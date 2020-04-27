@@ -4,7 +4,7 @@ import "./contact.css";
 
 export default class Contact extends Component {
   render() {
-    const resumeURL = process.env.RESUME_URL;
+    // const resumeURL = process.env.RESUME_URL;
     return (
       <main className="contact">
         <div className="contactP">
@@ -29,10 +29,10 @@ export default class Contact extends Component {
             view my <a href="https://linkedin.com/in/mwbramble">LinkedIn</a> profile, or
             send me an <a href="mailto:mwbramble@gmail.com">Email</a>.
           </p>
-          <p>
-            If you wish, you can also take a look at my <a href={resumeURL} target="_blank"> 
+          {/* <p>
+            If you wish, you can also take a look at my <a href={resumeURL} target="_blank">
             resume</a> on Google Docs.
-          </p>
+          </p> */}
         </div>
       </main>
     );
