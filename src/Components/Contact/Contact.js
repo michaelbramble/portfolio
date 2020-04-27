@@ -4,7 +4,7 @@ import "./contact.css";
 
 export default class Contact extends Component {
   render() {
-    const resumeURL = 'https://docs.google.com/document/d/1z6mNQ0Ild4irE0oL7mMRkzhn9vAGdcqlsH3hQZgZZPw/edit?usp=sharing';
+    const resumeURL = process.env.RESUME_URL;
     return (
       <main className="contact">
         <div className="contactP">
