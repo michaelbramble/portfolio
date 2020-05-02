@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import SmwScreen from "../../images/smw.jpg";
-import {drawCode} from '../../resources/utils.js';
+import {drawCode, getRepoCommits} from '../../resources/utils.js';
 
 export default class SmwSite extends Component {
   componentDidMount(){
@@ -20,7 +20,7 @@ export default class SmwSite extends Component {
             completely from scratch using React, but is currently still a large
             work in progress.
           </p>
-          <p>Last updated: April 26, 2020</p>
+          <p id='lastUpdated'>Last updated: {getRepoCommits('mwbramble', 'smw-speedrunning-site')}</p>
           <h2>Tech Stack</h2>
           <ul className="techStack">
             <li>Client: HTML, CSS, JavaScript, React, React Router.</li>
