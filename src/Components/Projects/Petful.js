@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import PetfulScreen from '../../images/petful.jpg';
-import {drawCode} from '../../resources/utils.js';
+import {drawCode, getRepoCommits} from '../../resources/utils.js';
 
 export default class Petful extends Component {
   componentDidMount(){
@@ -21,7 +21,7 @@ export default class Petful extends Component {
             mainly meant as an exercise on data structures and algorithms, and
             was done in one day.
           </p>
-          <p>Last updated: April 12, 2019</p>
+          <p id='lastUpdated'>Last updated: {getRepoCommits('mwbramble', 'petful-client-Michael-Jonathan')}</p>
           <h2>Tech Stack</h2>
           <ul className="techStack">
             <li>Client: HTML, CSS, JavaScript, React, React Router.</li>

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import AprendeMasScreen from '../../images/aprendemas.png';
-import {drawCode} from '../../resources/utils.js';
+import {drawCode, getRepoCommits} from '../../resources/utils.js';
 
 export default class AprendeMas extends Component {
   componentDidMount(){
@@ -17,7 +17,7 @@ export default class AprendeMas extends Component {
           <p>
             Practice learning a language with the spaced repetiton revison technique.
           </p>
-          <p>Last updated: May 28, 2019</p>
+          <p id='lastUpdated'>Last updated: {getRepoCommits('thinkful-ei-armadillo', 'spaced-rep-michael-michael-client')}</p>
           <h2>Tech Stack</h2>
           <ul className="techStack">
             <li>

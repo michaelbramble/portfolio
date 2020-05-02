@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import MunchstatsScreen from '../../images/munchstats.png';
-import {drawCode} from '../../resources/utils.js';
+import {drawCode, getRepoCommits} from '../../resources/utils.js';
 
 export default class Munchstats extends Component {
   componentDidMount(){
@@ -34,7 +34,7 @@ export default class Munchstats extends Component {
           ingredient's nutritional information to the meal's total. Once satisfied
           with your meal, you can hit the back button and your meal is saved!
         </p>
-        <p>Last updated: May 15, 2019</p>
+        <p id='lastUpdated'>Last updated: {getRepoCommits('thinkful-ei-armadillo', 'munchstats-client')}</p>
         <h2>Tech Stack</h2>
         <ul className="techStack">
           <li>

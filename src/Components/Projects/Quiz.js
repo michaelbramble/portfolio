@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import QuizScreen from '../../images/quizapp.jpg';
-import {drawCode} from '../../resources/utils.js';
+import {drawCode, getRepoCommits} from '../../resources/utils.js';
 
 export default class Quiz extends Component {
   componentDidMount(){
@@ -18,7 +18,7 @@ export default class Quiz extends Component {
           This is a simple seven-question quiz that renders each new question
           as well as a results screen using jQuery.
         </p>
-        <p>Last updated: January 23, 2019</p>
+        <p id='lastUpdated'>Last updated: {getRepoCommits('thinkful-ei-armadillo', 'irem-michael')}</p>
         <h2>Tech Stack</h2>
         <ul className="techStack">
           <li>Client: HTML, CSS, jQuery.</li>

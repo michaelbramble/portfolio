@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import PassGenScreen from '../../images/passgen.png';
-import {drawCode} from '../../resources/utils.js';
+import {drawCode, getRepoCommits} from '../../resources/utils.js';
 
 export default class PassGen extends Component {
   componentDidMount(){
@@ -17,7 +17,7 @@ export default class PassGen extends Component {
         <p>
           This is a simple web app that generates 8, 12, 16, or 32 character passwords.
         </p>
-        <p>Last updated: March 3, 2020</p>
+        <p id='lastUpdated'>Last updated: {getRepoCommits('mwbramble', 'password-generator')}</p>
         <h2>Tech Stack</h2>
         <ul className="techStack">
           <li>

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import AvgRunCalcScreen from "../../images/avgruncalc.png";
-import {drawCode} from '../../resources/utils.js';
+import {drawCode, getRepoCommits} from '../../resources/utils.js';
 
 export default class AvgRunCalc extends Component {
   componentDidMount(){
@@ -18,7 +18,7 @@ export default class AvgRunCalc extends Component {
           <p>
             This is a simple web app that calculates the average time of any amount of a user's runs.
           </p>
-          <p>Last updated: February 17, 2020</p>
+          <p id='lastUpdated'>Last updated: {getRepoCommits('mwbramble', 'average-run-calc')}</p>
           <h2>Tech Stack</h2>
           <ul className="techStack">
             <li>Client: HTML, CSS, JavaScript.</li>

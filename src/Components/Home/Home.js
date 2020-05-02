@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import {Link} from 'react-router-dom';
+import {getRepoCommits} from '../../resources/utils';
 import Propic2 from '../../images/propic2.jpg';
 import './home.css';
 
@@ -37,6 +38,7 @@ export default class Home extends Component {
           <a href="https://github.com/mwbramble/portfolio">
             GitHub Repo for This Site
           </a>
+          <p id='lastUpdated'>Last Updated: {getRepoCommits('mwbramble', 'portfolio')}</p>
         </div>
       </main>
     );
