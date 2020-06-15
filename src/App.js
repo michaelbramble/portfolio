@@ -10,6 +10,7 @@ import PassGen from './Components/Projects/PassGen';
 import Petful from './Components/Projects/Petful';
 import AprendeMas from './Components/Projects/AprendeMas';
 import Quiz from './Components/Projects/Quiz';
+import ChatBot from './Components/Projects/ChatBot';
 import Contact from './Components/Contact/Contact';
 import NotFound from './Components/NotFound/NotFound';
 import './style.css';
@@ -59,6 +60,10 @@ function App() {
           <Route
             exact path={'/projects/quiz_app'}
             component={Quiz}
+          />
+          <Route
+            exact path={'/projects/chat_bot'}
+            component={ChatBot}
           />
           <Route
             component={NotFound}

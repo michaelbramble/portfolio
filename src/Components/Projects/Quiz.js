@@ -10,7 +10,7 @@ export default class Quiz extends Component {
   render(){
     return (
       <div className='projPageWrapper'>
-      <main className="projContainer3">
+      <main className="projContainer">
         <h1>Quiz App</h1>
         <img src={QuizScreen} alt="Quiz App" className="projImage" />
         <h2>About</h2>

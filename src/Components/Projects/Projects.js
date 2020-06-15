@@ -139,6 +139,19 @@ export default class Projects extends Component {
             </p>
           </li>
         </ul>
+        <h1>Other Projects</h1>
+        <ul className='projList'>
+          <li className='proj'>
+          <Link to ='projects/chat_bot'><h2>Twitch Chat Bot</h2></Link>
+            <p>
+              <Link to="/projects/chat_bot">info</Link>
+              {" / "}
+              <a href="https://github.com/mwbramble/smw-chat-bot">
+                repo
+              </a>
+            </p>
+          </li>
+        </ul>
       </main>
     )
   }
