@@ -25,6 +25,10 @@ export default class Contact extends Component {
             React, jQuery, Redux, &amp; Enzyme.
           </p>
           <p>
+            My skills in back-end development include Node.js, MongoDB, Mocha/Chai,
+            REST APIs, &amp; PostgreSQL.
+          </p>
+          <p>
             Check out my code on <a href="https://github.com/mwbramble">GitHub</a>,
             view my <a href="https://linkedin.com/in/mwbramble">LinkedIn</a> profile, or
             send me an <a href="mailto:mwbramble@gmail.com">Email</a>.
